@@ -18,7 +18,7 @@ from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bo
 import matplotlib.pyplot as plt
 
 def loadData(path):
-  df = pd.read_csv(path)
+  df = pd.read_csv('fmri_gap_cnn_extracted_features (1).csv')
   return df
 
 def train_test_Datasplit(df):
